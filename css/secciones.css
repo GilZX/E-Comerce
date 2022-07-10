@@ -1,0 +1,87 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+
+.seccion{
+   
+    width: 1335px;
+    height: 306px;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-left: 25px;
+    align-self: center;
+   
+   
+
+}
+.seccion-icono{
+    width: 90px;
+    height: 90px;
+}
+.seccion-header{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-header h2{
+    size: 32px;
+}
+.ver-todos{
+    margin-left: 1110px;
+}
+.seccion-next{
+    height: 16px;
+    width: 16px;
+}
+.seccion01{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 80%;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.productos{
+    margin-top: 25px;
+}
+.seccion-titulo{
+    margin-left: 25px;
+    width: 100%;
+    margin-right:20px;
+    display: flex;
+}
+.seccion-productos{
+   display: flex;
+   margin-top: 25px;
+  
+}
+.producto{
+    margin-top:25px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.descripcion-producto {
+    align-items: center;
+    align-content: center;
+    
+}
+#precio{
+    font-weight: bold;
+}
+#ver-producto{
+    color:#2A7AE4;
+}
+/* Efectos*/
+.producto:hover{
+    transform: scale(1.1);
+}
+.producto p{
+    font-size: medium;
+}

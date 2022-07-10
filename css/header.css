@@ -1,0 +1,107 @@
+
+
+.cabesera{
+    display:flex;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    
+
+    
+}
+.cabesera-logo{
+    margin-top: 42px;
+    margin-left: 100px;
+    
+}
+
+.cabesera-input-buscar{
+    width: 390px;
+    height: 30px;
+    color: grey;
+    background: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 42px;
+    margin-left: 40px;
+    border-color: transparent;
+    
+    
+}
+.icono-buscar{
+    position: absolute;
+    border: none;
+    margin-top: 50px;
+    left: 760px;
+    width: 20px;
+    background-image: url("/img/buscar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boton-login{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    background: #FFFFFF;
+    padding: 16px;
+    gap: 10px;
+    margin-top: 32px;
+    margin-left: 500px;
+    margin-bottom: 42px;
+    
+
+}
+.promociones{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    width:100%;
+    height: 352px;
+    background-image: url('/mario.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.promociones h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}  
+.promociones h2{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color:#FFFFFF;
+
+
+
+
+}
+.boton-promociones{
+    width: 140px;
+    height: 51px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    padding: 16px;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 5%;
+    opacity: 0.8;
+    border-color: transparent;
+
+}
