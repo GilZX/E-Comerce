@@ -1,11 +1,8 @@
-
-
 .cabesera{
     display:flex;
-    background-color: #FFFFFF;
+    background-color:#E5E5E5;
     opacity: 0.9;
     align-items: flex-start;
-    position: absolute;
     width: 100%;
     
 
@@ -62,10 +59,10 @@
     gap: 16px;
     width:100%;
     height: 352px;
-    background-image: url('/img/Alura-Geek.jfif');
+    background-image: url('/img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    
 
 }
 .promociones h1{
