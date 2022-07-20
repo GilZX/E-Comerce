@@ -1,9 +1,10 @@
 .productos{
     display: flex;
     flex-direction: column;
-    
-
-
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -57,6 +58,7 @@
 }
 .seccion-productos{
    display: flex;
+   flex-wrap: wrap;
    margin-top: 25px;
   
 }
@@ -65,12 +67,21 @@
     text-decoration: none;
     list-style: none;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 10px;
+    width: 15%;
 }
 .descripcion-producto {
     align-items: center;
     align-content: center;
     
+}
+#referenciaPromociones{
+    margin-left: 220px;
+    width: 100%;
+    margin-right:20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 #precio{
     font-weight: bold;

@@ -9,7 +9,12 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/secciones.css" rel="stylesheet">
     <link href="css/contacto.css" rel="stylesheet">
+    <link href="css/efectos.css" rel="stylesheet">
     <title>AluraGeek</title>
+    <script src="js/productos.js">
+            
+    </script>
+</body>
 </head>
 
 
@@ -28,23 +33,33 @@
             </div>
 
             <div class="cabesera-login">
-                <input class="boton-login" value="Login" type="button">
+                <input class="boton-login" value="Login" type="button" onclick="getPromociones()">
             </div>
 
         </header>
 
         <div class="promociones">
+            <div class="refspromociones">
+                <a href="#starwarsProducts" class="refStarwars">Star Wars</a>
+                <a href="#consolasProducts" class="refConsolas"> Consolas</a>
+                <a href="#referenciaPromociones" class="refPromociones">Promociones</a>
+            </div>
+
+
             <h1> Mes Geek  Promocional</h1>
             <h2>Productos Seleccionados con un 40% de descuento</h2>
-            <input  class ="boton-promociones" type="button" value="Ver Promociones">
+           <!--<input  type="button"  value="Ver Promociones">-->
+            <a  class ="boton-promociones" href="#referenciaPromociones">Promociones</a>
         </div>
 
         <div class="productos">
           
 
-             <ul class="seccion01">
+             <ul id="starwarsProducts" class="seccion01">
                 <div class="seccion-titulo">
-                    <h2>Star Wars</h2>
+                
+                        <h2 class="titulo-producto">Star Wars</h2>
+                   
                     <a  style="color: #2A7AE4; margin-left: 980px;">Ver Todos</a>
                     <img style="margin-left: 10px; width:15px; height: 15px ;" src="img/next.png">
                 </div>
@@ -98,6 +113,14 @@
                             <a id="ver-producto">Ver Producto</a>
                         </div>
                     </li>
+                    <li class="producto">
+                        <img src="img/star-wars06.png">
+                        <div class="descripcion-producto">
+                            <p>Combo-Imperial</p>
+                            <p id="precio">$90</p>
+                            <a id="ver-producto">Ver Producto</a>
+                        </div>
+                    </li>
                 </div>
                 
 
@@ -105,9 +128,9 @@
 
              
 
-             <ul class="seccion01">
+             <ul id="consolasProducts" class="seccion01">
                 <div class="seccion-titulo">
-                    <h2>Consolas</h2>
+                        <h2 class="titulo-producto">Consolas</h2>
                     <a  style="color: #2A7AE4; margin-left: 980px;">Ver Todos</a>
                     <img style="margin-left: 10px; width:15px; height: 15px ;" src="img/next.png">
                 </div>
@@ -161,77 +184,78 @@
                             <a id="ver-producto">Ver Producto</a>
                         </div>
                     </li>
+                    
                 </div>
                 
 
              </ul>
-
-
-
-
-
+             <div id="referenciaPromociones">
+                <ul id="variadosProducts" class="seccion01">
+                    <div class="seccion-titulo">
+                      
+                            <h2 class="titulo-producto">Promociones</h2>
+                        
+                        
+                        <a  style="color: #2A7AE4; margin-left: 980px;">Ver Todos</a>
+                        <img style="margin-left: 10px; width:15px; height: 15px ;" src="img/next.png">
+                    </div>
+                    <div class="seccion-productos">
+                        <li class="producto">
+                            <img src="img/promociones-01.png">
+                            <div class="descripcion-producto">
+                                <p>Atari Bag</p>
+                                <p id="precio">$10</p>
+                                <a id="ver-producto">Ver Producto</a>
+                            </div>
+                           
+                        </li>
+                        <li class="producto">
+                            <img src="img/promociones-02.png">
+                            <div class="descripcion-producto">
+                                <p>Switch Dual</p>
+                                <p id="precio">$40</p>
+                                <a id="ver-producto">Ver Producto</a>
+                            </div>
+                        </li>
+                        <li class="producto">
+                            <img src="img/promociones-03.png">
+                            <div class="descripcion-producto">
+                                <p>Fiigura-Sonic</p>
+                                <p id="precio">$25</p>
+                                <a id="ver-producto">Ver Producto</a>
+                            </div>
+                        </li>
+                        <li class="producto">
+                            <img src="img/promociones-04.png">
+                            <div class="descripcion-producto">
+                                <p>Despertador</p>
+                                <p id="precio">$30</p>
+                                <a id="ver-producto">Ver Producto</a>
+                            </div>
+                        </li>
+                        <li class="producto">
+                            <img src="img/promociones-05.png">
+                            <div class="descripcion-producto">
+                                <p>VR-OCULUSX</p>
+                                <p id="precio">$360</p>
+                                <a id="ver-producto">Ver Producto</a>
+                            </div>
+                        </li>
+                        <li class="producto">
+                            <img src="img/promociones-06.png">
+                            <div class="descripcion-producto">
+                                <p>Traje PikaChu</p>
+                                <p id="precio">$240</p>
+                                <a id="ver-producto">Ver Producto</a>
+                            </div>
+                        </li>
+                    </div>
+                    
+    
+                 </ul>
+    
+             </div>
              
-             <ul class="seccion01">
-                <div class="seccion-titulo">
-                    <h2>Promociones</h2>
-                    <a  style="color: #2A7AE4; margin-left: 980px;">Ver Todos</a>
-                    <img style="margin-left: 10px; width:15px; height: 15px ;" src="img/next.png">
-                </div>
-                <div class="seccion-productos">
-                    <li class="producto">
-                        <img src="img/promociones-01.png">
-                        <div class="descripcion-producto">
-                            <p>Atari Bag</p>
-                            <p id="precio">$10</p>
-                            <a id="ver-producto">Ver Producto</a>
-                        </div>
-                       
-                    </li>
-                    <li class="producto">
-                        <img src="img/promociones-02.png">
-                        <div class="descripcion-producto">
-                            <p>Switch Dual</p>
-                            <p id="precio">$40</p>
-                            <a id="ver-producto">Ver Producto</a>
-                        </div>
-                    </li>
-                    <li class="producto">
-                        <img src="img/promociones-03.png">
-                        <div class="descripcion-producto">
-                            <p>Fiigura-Sonic</p>
-                            <p id="precio">$25</p>
-                            <a id="ver-producto">Ver Producto</a>
-                        </div>
-                    </li>
-                    <li class="producto">
-                        <img src="img/promociones-04.png">
-                        <div class="descripcion-producto">
-                            <p>Despertador</p>
-                            <p id="precio">$30</p>
-                            <a id="ver-producto">Ver Producto</a>
-                        </div>
-                    </li>
-                    <li class="producto">
-                        <img src="img/promociones-05.png">
-                        <div class="descripcion-producto">
-                            <p>VR-OCULUSX</p>
-                            <p id="precio">$360</p>
-                            <a id="ver-producto">Ver Producto</a>
-                        </div>
-                    </li>
-                    <li class="producto">
-                        <img src="img/promociones-06.png">
-                        <div class="descripcion-producto">
-                            <p>Traje PikaChu</p>
-                            <p id="precio">$240</p>
-                            <a id="ver-producto">Ver Producto</a>
-                        </div>
-                    </li>
-                </div>
-                
-
-             </ul>
-
         
 
         </div>
@@ -246,7 +270,7 @@
                     <img src="img/Geek.svg">
                 </div>
 
-                <ul class="contacto-categorias">
+                <ul  class="contacto-categorias">
                     <li class="item-categoria"><a>Quienes Somos</a></li>
                     <li class="item-categoria"><a>Politica De Privacidad</a></li>
                     <li class="item-categoria"><a>Programa De Fidelidad</a></li>
@@ -259,9 +283,9 @@
 
                     <form class="formulario">
                         <p style="color: #464646;">Comunicate Con Nosotros</p>
-                        <input class="nombre" type="text" placeholder="Nombre">
-                        <input class="mensaje" type="text" placeholder="Escribir Mensaje">
-                        <input  class ="boton-promociones" type="button" value="Enviar Mensaje">
+                        <input class="nombre" type="text" placeholder="Nombre" maxlength="40" required>
+                        <input class="mensaje" type="text" placeholder="Escribir Mensaje" maxlength="120" required>
+                        <input  class ="boton-promociones" type="button" value="Enviar Mensaje"required>
                     </form>
 
                 </div>
@@ -278,8 +302,12 @@
             <P>Desarrollado Por Gilberto Antonio Rodriguez Zetino 2022</P>
             <img  width="50px" height="50px" src="img/tucanJS2 (1).jpg">
         </footer>
-
-</body>
+        <script src="js/productos.js">
+            
+        </script>
+        <script src="js/funciones.js">
+        </script>
+        
 
 
 
